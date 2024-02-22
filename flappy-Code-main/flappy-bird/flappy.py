@@ -126,8 +126,8 @@ while running:
 
         if event.type == pygame.KEYDOWN:  # Key pressed event
             if event.key == pygame.K_SPACE and not game_over:  # If space key is pressed
-                bird_movement = 0
-                bird_movement = -7
+                bird_movement = 1
+                bird_movement = -4
 
             if event.key == pygame.K_SPACE and game_over:
                 game_over = False
